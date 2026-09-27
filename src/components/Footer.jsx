@@ -184,7 +184,7 @@ const Footer = () => {
           <div style={styles.footerColumn}>
             <h4 style={styles.footerTitle}>About Us</h4>
             <p style={styles.footerDescription}>
-              Established in 2010, DSA CRN System is a professional loan
+              Established in 2010, Atharva Instant Credit Trackeris a professional loan
               management and CRM platform connecting customers with banks
               and NBFCs across India at competitive interest rates.
             </p>
@@ -277,7 +277,7 @@ const Footer = () => {
                 <FaMapMarkerAlt />
               </div>
               <div>
-                <div style={{fontWeight: '600'}}>Nashik,Maharashtra</div>
+                <div style={{fontWeight: '600'}}>THANE WEST</div>
                 <div style={{fontSize: '0.9rem', opacity: 0.8}}>India</div>
               </div>
             </div>
@@ -287,7 +287,7 @@ const Footer = () => {
                 <FaPhone />
               </div>
               <div>
-                <div style={{fontWeight: '600'}}>+91 9607249676</div>
+                <div style={{fontWeight: '600'}}>9325324711</div>
                 <div style={{fontSize: '0.9rem', opacity: 0.8}}>Mon-Sat, 9AM-6PM</div>
               </div>
             </div>
@@ -297,7 +297,7 @@ const Footer = () => {
                 <FaEnvelope />
               </div>
               <div>
-                <div style={{fontWeight: '600'}}>kaustubhpawar2021@gmail.com</div>
+                <div style={{fontWeight: '600'}}>atharvaayewale@gmail.com</div>
                 <div style={{fontSize: '0.9rem', opacity: 0.8}}>Get Support</div>
               </div>
             </div>
@@ -337,14 +337,14 @@ const Footer = () => {
               <FaPhone style={{color: '#667eea'}} />
               <div>
                 <div style={{fontWeight: '600', marginBottom: '0.2rem'}}>Call Us</div>
-                <div>+91 9607249676</div>
+                <div>9325324711</div>
               </div>
             </div>
             <div style={styles.complaintItem}>
               <FaEnvelope style={{color: '#667eea'}} />
               <div>
                 <div style={{fontWeight: '600', marginBottom: '0.2rem'}}>Email Us</div>
-                <div>kaustubhpawar2021@gmail.com</div>
+                <div>atharvaayewale@gmail.com</div>
               </div>
             </div>
           </div>
