@@ -1,42 +1,68 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* ==========================================================================
+   ATHARVA INSTANT CREDIT TRACKER - CYBER CORE GLOBAL OVERRIDE STYLING
+   ========================================================================== */
+
+/* Poori Website Ka Background Ekdum Deep Dark (#030712) */
+body, html, #root, main, div[class*="bg-white"], div[class*="bg-gray-50"] {
+  background-color: #030712 !important;
+  color: #f3f4f6 !important;
+  font-family: 'Inter', sans-serif !important;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Saare Text Content ko Cyber White aur Grey me badlo */
+p, span, h1, h2, h3, h4, h5, h6, label {
+  color: #e5e7eb !important;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Saare Boring Blocks aur Cards ko Dark Border aur Glossy Look do */
+div[class*="shadow"], div[class*="rounded"], .card, .sidebar, nav {
+  background-color: #0b0f19 !important;
+  border: 1px solid rgba(16, 185, 129, 0.15) !important; /* Hacker Emerald Green Border */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Inputs aur Form Fields ko Sleek Black aur Active Green Control do */
+input, select, textarea {
+  background-color: #111827 !important;
+  color: #ffffff !important;
+  border: 1px solid #374151 !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
 }
 
-.card {
-  padding: 2em;
+input:focus, select:focus {
+  border-color: #10b981 !important; /* Glowing Green on Click */
+  outline: none !important;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.3) !important;
 }
 
-.read-the-docs {
-  color: #888;
+/* Saare Default Buttons ko Premium Emerald Cyber Buttons me Convert Karo */
+button, input[type="submit"], button[class*="bg-blue"] {
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
+  color: #030712 !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.5px !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
+}
+
+button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4) !important;
+  cursor: pointer !important;
+}
+
+/* Sidebars aur Active Navigation Menu Links Layout */
+a[class*="active"], div[class*="active"] {
+  background-color: rgba(16, 185, 129, 0.1) !important;
+  color: #10b981 !important;
+  border-left: 3px solid #10b981 !important;
+}
+
+/* Hide Unattractive Corporate Grids Content */
+.contact-widget, .outdated-footer-details {
+  display: none !important;
 }
