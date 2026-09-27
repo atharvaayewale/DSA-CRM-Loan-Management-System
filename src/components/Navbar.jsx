@@ -55,7 +55,7 @@ const Navbar = () => {
           <div className="lp-top-right">
             <a href="TEL:+919325324711" className="contact contact-phone">
               <span className="contact-icon">📞</span>
-              <span className="contact-text">+91 81216 66902</span>
+              <span className="contact-text">+91 93253 24711</span>
             </a>
             <a
               href="mailto:ATHARVAAYEWALE@GMAIL.com"
