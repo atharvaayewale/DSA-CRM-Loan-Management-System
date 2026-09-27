@@ -53,16 +53,16 @@ const Navbar = () => {
           </Link>
 
           <div className="lp-top-right">
-            <a href="tel:+918121666902" className="contact contact-phone">
+            <a href="TEL:+919325324711" className="contact contact-phone">
               <span className="contact-icon">📞</span>
               <span className="contact-text">+91 81216 66902</span>
             </a>
             <a
-              href="mailto:info@finfreeenterprises.com"
+              href="mailto:ATHARVAAYEWALE@GMAIL.com"
               className="contact contact-email"
             >
               <span className="contact-icon">✉</span>
-              <span className="contact-text">info@finfreeenterprises.com</span>
+              <span className="contact-text">ATHARVAAYEWALE@GMAIL.com</span>
             </a>
 
             <Link to="/login" className="btn yellow">
